@@ -1,0 +1,84 @@
+{
+    "rooms":[
+        {
+            "roomId":1,
+            "room_name":"A1",
+            "Amenities":[
+                "Telephone",
+                "Air conditioning",
+                "Towels",
+                "Dining options",
+                "Luggages storage",
+                "Television"
+            ],
+            "seats":21,
+            "price_per_hour":500,
+            "booked_status":true,
+            "booking_Confirmation_Id":[
+                "1jhsana",
+                "1dsanam"
+            ]
+        },
+        {
+            "roomId":2,
+            "room_name":"A2",
+            "Amenities":[
+                "Telephone",
+                "Air conditioning",
+                "Towels",
+                "Luggages storage"
+            
+            ],
+            "seats":34,
+            "price_per_hour":350,
+            "booked_status":true,
+            "booking_Confirmation_Id":[
+                "2afjha",
+                "2dsjfs"
+            ]
+        }
+    ],
+    "customer_Details":[
+        {
+            "customer_Id": 1,
+            "customer_Name": "Joshph",
+            "customer_Email": "joshph@gmail.com",
+            "customer_Phone": 2345689,
+            "date": 19072023,
+            "start_Time": 19072023,
+            "end_Time": 22072023,
+            "room_Name": "A1",
+            "room_Id": 1
+        },{
+            "customer_Id": 2,
+            "customer_Name": "jack",
+            "customer_Email": "jack@gmail.com",
+            "customer_Phone": 876543456,
+            "date": 22048878,
+            "start_Time": 22048878,
+            "end_Time": 22048888,
+            "room_Name": "A2",
+            "room_Id": 2
+        }       
+    ],
+    "booking_Details":[
+        {
+            "booking_Id": 1,
+            "date": 19072023,
+            "start_Time": 19072023,
+            "end_Time": 22072023,
+            "booking_Confirmation": ["2afjha"],
+            "room_Id": 2,
+            "customer_Name": "Joshph"
+        },
+        {
+            "booking_Id": 2,
+            "date": 22048878,
+            "start_Time": 22048878,
+            "end_Time": 22048888,
+            "booking_Confirmation": ["1dsanam"],
+            "room_Id": 1,
+            "customer_Name": "jack"
+        }
+    ]
+}
